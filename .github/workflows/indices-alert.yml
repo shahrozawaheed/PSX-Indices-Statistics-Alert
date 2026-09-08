@@ -3,9 +3,6 @@ name: PSX Indices Statistics Alert
 on:
   workflow_dispatch:
 
-  schedule:
-    - cron: '0 12 * * 1-5'
-
 permissions:
   contents: write
 
